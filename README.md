@@ -9,7 +9,7 @@ Its Recursive.
 Its Powerful.
 And its powered by the Ducky 💪
 
-Ducky -> Backdoor Installs -> Backdoor Hides itself -> Becomes Persistant and Stealthy -> Provides you will everything whether its a File on the Desktop or a Password list from chrome all straight to a custom Discord Web-Hook.
+Ducky -> Backdoor Installs -> Backdoor Hides itself -> Becomes Persistant and Stealthy -> Provides you with everything whether its a File on the Desktop or a Password list from chrome all straight to a custom Discord Web-Hook.
 
 We do not condone the use of Illegal Activity with this program.
 Theres only one thing i condone...
